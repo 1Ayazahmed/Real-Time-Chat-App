@@ -1,0 +1,27 @@
+# Dependencies
+/node_modules
+/backend/user/node_modules
+
+# Build output
+/dist
+/backend/user/dist
+
+# Environment variables
+.env
+*.env
+backend/user/.env
+
+# Guide materials
+/Guide-Materials/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+/.env
+
+.DS_Store
