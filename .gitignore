@@ -1,15 +1,20 @@
 # Dependencies
 /node_modules
 /backend/user/node_modules
+/backend/mail/node_modules
+
 
 # Build output
 /dist
 /backend/user/dist
+/backend/mail/dist
+
 
 # Environment variables
 .env
 *.env
 backend/user/.env
+backend/mail/.env
 
 # Guide materials
 /Guide-Materials/
