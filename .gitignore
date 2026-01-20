@@ -1,32 +1,30 @@
 # Dependencies
-/node_modules
-/backend/user/node_modules
-/backend/mail/node_modules
-
+# Ignores all node_modules folders in any subdirectory
+**/node_modules
 
 # Build output
-/dist
-/backend/user/dist
-/backend/mail/dist
+# Ignores all dist folders in any subdirectory
+**/dist
 
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Environment variables
+# Ignores all .env files
 .env
 *.env
-backend/user/.env
-backend/mail/.env
 
 # Guide materials
 /Guide-Materials/
 
-# IDE and OS files
+# IDE and OS specific files
 .vscode/
 .idea/
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-/.env
-
-.DS_Store

@@ -28,7 +28,7 @@ export const publicToQueue = async (queueName: string, message: any) => {
     return;
   }
 
-  await channel.assertQueue(queueName, { durable: true }); // if there is error it will retry to send the message to the queue
+  await channel.assertQueue(queueName, { durable: true }); // if there is error it will retry to send the message into the queue
   channel.sendToQueue(queueName, Buffer.from(JSON.stringify(message))),
     {
       performance: true,

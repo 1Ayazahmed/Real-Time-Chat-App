@@ -1,10 +1,10 @@
 import express from "express";
+import { loginUser } from "../controller/user";
 
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.send("User Service is up and running!");
-});
+router.post("/login",loginUser);
+
 
 
 export default router;
