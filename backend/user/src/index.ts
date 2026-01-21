@@ -5,8 +5,6 @@ import { createClient } from "redis";
 import userRoutes from "./routes/user.js";
 import { connectRabbitMQ } from "./config/rabbitmq.js";
 
-
-
 dotenv.config();
 connectDB();
 connectRabbitMQ();

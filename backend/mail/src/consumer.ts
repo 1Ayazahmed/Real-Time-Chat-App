@@ -1,7 +1,6 @@
 import amqplib from "amqplib";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
-import { log } from "node:console";
 dotenv.config();
 
 
